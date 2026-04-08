@@ -1,0 +1,93 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background: linear-gradient(135deg, #0f172a, #1e293b);
+  color: #e2e8f0;
+  line-height: 1.6;
+}
+
+.container {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 40px 20px;
+}
+
+.hero {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 40px;
+  flex-wrap: wrap;
+  min-height: 80vh;
+}
+
+.profile-photo {
+  width: 240px;
+  height: 240px;
+  object-fit: cover;
+  border-radius: 50%;
+  border: 5px solid #38bdf8;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.35);
+  transition: transform 0.3s ease;
+}
+
+.profile-photo:hover {
+  transform: scale(1.05);
+}
+
+.hero-text {
+  max-width: 520px;
+}
+
+.hero-text h1 {
+  font-size: 2.5rem;
+  margin-bottom: 15px;
+}
+
+.hero-text p {
+  font-size: 1.1rem;
+  margin-bottom: 20px;
+  color: #cbd5e1;
+}
+
+.buttons {
+  display: flex;
+  gap: 15px;
+  flex-wrap: wrap;
+}
+
+.buttons a {
+  text-decoration: none;
+  background: #38bdf8;
+  color: #0f172a;
+  padding: 12px 18px;
+  border-radius: 10px;
+  font-weight: bold;
+  transition: 0.3s ease;
+}
+
+.buttons a:hover {
+  transform: translateY(-3px);
+}
+
+.section {
+  background: rgba(255,255,255,0.04);
+  margin-bottom: 20px;
+  padding: 25px;
+  border-radius: 18px;
+  box-shadow: 0 6px 20px rgba(0,0,0,0.2);
+}
+
+.section h2 {
+  margin-bottom: 15px;
+  color: #38bdf8;
+}
+
+ul {
+  padding-left: 20px;
+}
